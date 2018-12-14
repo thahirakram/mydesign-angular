@@ -1,0 +1,16 @@
+.home-banner-image {
+    background-image: url('sheikh-zayed-mosque-abu-dhabi-united-arab-emirates-uhd-4k-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-content {
+    top:50%;
+}
+/* .card-image {
+    height:200px;
+    width: 200px;
+} */
+.pink-button {
+    background-color: rgb(255, 55, 148);
+}
