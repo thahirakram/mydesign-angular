@@ -1,16 +1,23 @@
 .home-banner-image {
-    background-image: url('sheikh-zayed-mosque-abu-dhabi-united-arab-emirates-uhd-4k-wallpaper.jpg');
+    background-image:  url('sheikh-zayed-mosque-abu-dhabi-united-arab-emirates-uhd-4k-wallpaper.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width:100%;
+    background-position: center;
 }
 .banner-content {
     top:50%;
 }
-/* .card-image {
+.card-image {
     height:200px;
     width: 200px;
-} */
+    margin-left: 20px;
+}
 .pink-button {
     background-color: rgb(255, 55, 148);
+}
+.card-image {
+    width:200px;
+    height:200px;
 }
