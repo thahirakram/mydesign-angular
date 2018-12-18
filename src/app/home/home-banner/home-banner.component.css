@@ -4,20 +4,30 @@
     background-size: cover;
     height: 100vh;
     width:100%;
+    background-attachment: fixed;
     background-position: center;
 }
 .banner-content {
     top:50%;
+    bottom:50%;
 }
 .card-image {
-    height:200px;
-    width: 200px;
+    height:140px;
+    width: 220px;
     margin-left: 20px;
 }
 .pink-button {
     background-color: rgb(255, 55, 148);
 }
-.card-image {
-    width:200px;
-    height:200px;
-}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    width:1700px;
+    white-space: nowrap;
+ }
+  .card-box {
+    display: inline-block;
+  }
+  /* ::-webkit-scrollbar {
+    display: none;
+  } */
