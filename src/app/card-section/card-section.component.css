@@ -3,3 +3,10 @@
     height: 70px;
     background-color: rgb(7, 174, 216);
 }
+.card-image:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.cards-div {
+    overflow:hidden;
+}
