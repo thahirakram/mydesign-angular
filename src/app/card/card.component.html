@@ -1,22 +1,12 @@
-<div class="row">
-  <div class="col-md-7 mx-auto mt-5">
-    <div class="card-deck">
-      <div class="card position-relative">
-        <div class="corner-box text-white position-absolute text-center pt-2">
-          09<br><small>september</small>
-        </div>
-        <img class="card-img-top" src="assets/01494894-21-800x533.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content.
-            This content is a little bit longer.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
-      <div class="card position-relative">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 mt-5" *ngFor="let c of cardList">
+      <app-card-section [src]="c.src"></app-card-section>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="card position-relative">
         <div class="corner-box text-white position-absolute text-center pt-2">
           09<br><small>september</small>
         </div>
@@ -43,7 +33,4 @@
         <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+      </div> -->
