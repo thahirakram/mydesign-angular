@@ -2,11 +2,15 @@
     width: 70px;
     height: 70px;
     background-color: rgb(7, 174, 216);
+    z-index: 1;
 }
 .card-image:hover{
     transform: scale(1.1);
-    transition: .5s;
 }
 .cards-div {
     overflow:hidden;
+}
+.card-image {
+    transition: 1s;
+
 }
