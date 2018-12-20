@@ -15,7 +15,7 @@ export class CardComponent implements OnInit {
       src: '/assets/Download-desktop-clown-fish-wallpapers-HD.jpg',
     }, 
     {
-      src: '/assets/lake-ultra-hd-4k-7f-2880x1800.jpg',
+      src: '/assets/01494894-21-800x533.jpg',
     }
   ];
   constructor() { }

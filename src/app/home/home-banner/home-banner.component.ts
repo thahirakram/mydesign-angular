@@ -5,7 +5,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./home-banner.component.css']
 })
 export class HomeBannerComponent implements OnInit {
-  images = new Array(7).fill(1)
+  images = new Array(8).fill(1)
   constructor() {
     
   }

@@ -9,8 +9,9 @@
 }
 .cards-div {
     overflow:hidden;
+    cursor: pointer;
 }
 .card-image {
     transition: 1s;
-
+    height:250px;
 }

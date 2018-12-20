@@ -1,5 +1,5 @@
 .home-banner-image {
-    background-image: url('/assets/sheikh-zayed-mosque-abu-dhabi-united-arab-emirates-uhd-4k-wallpaper.jpg');
+    background-image: url('/assets/lake-ultra-hd-4k-7f-2880x1800.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -13,14 +13,17 @@
     bottom: 50%;
 }
 
-.card-image {
+/* .card-image {
     height: 140px;
     width: 220px;
     margin-left: 20px;
-}
+} */
 
-.pink-button {
+.pink-color {
     background-color: rgb(255, 55, 148);
+}
+.text-pink {
+    color: rgb(255, 55, 148);
 }
 
 /* .scrolling-wrapper {
@@ -39,5 +42,5 @@
 .thumbnail-image img {
     width: 150px;
     height: 100px;
-    margin-left: 10px;
+    
 }

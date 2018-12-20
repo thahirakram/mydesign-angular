@@ -1,25 +1,25 @@
 <div class="home-banner-image">
-  <div class="" style="height:100vh;background-color: rgba(0, 0, 0, 0.5);">
+  <div class="" style="height:100vh;background-color: rgba(0, 0, 0, 0.2);">
+  </div>
 
-    <!-- navbar -->
-    <app-navbar></app-navbar>
+  <!-- navbar -->
+  <app-navbar></app-navbar>
 
 
-    <div class="banner-content ml-5 position-absolute">
-      <h2 class="text-white ml-4">DUBAI,THE MOST ATTRACTIVE DESTIANTION</h2>
-      <p class="text-white ml-4">220 Hotels - 150 Restraunts</p>
-      <a class="btn pink-button text-white ml-4"> Read more</a>
+  <div class="banner-content ml-5 position-absolute">
+    <h2 class="text-white ml-4">DUBAI,THE MOST<span class="text-pink"> ATTRACTIVE</span>  DESTIANTION</h2>
+    <p class="text-white ml-4">220 Hotels - <span class="text-pink">150 Restraunts</span></p>
+    <a class="btn btn-outline-warning pink-color text-white ml-4"> Read more</a>
 
-      <!-- banner cards -->
+    <!-- banner cards -->
 
-      <owl-carousel [options]="{items: 3, dots: false, navigation: false}" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
-        <div class="item mt-5" *ngFor="let image of images;let i = index">
-          <div class="thumbnail-image  mt-5">
-            <img src="/assets/Download-desktop-clown-fish-wallpapers-HD.jpg">
-          </div>
+    <!-- <owl-carousel [options]="{items: 3, dots: false, navigation: false}" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+      <div class="item mt-5" *ngFor="let image of images;let i = index">
+        <div class="thumbnail-image  mt-5">
+          <img src="/assets/Download-desktop-clown-fish-wallpapers-HD.jpg">
         </div>
-      </owl-carousel>
-    </div>
+      </div>
+    </owl-carousel> -->
   </div>
 
 

@@ -1,3 +1,7 @@
 .color-pink {
     color:  rgb(255, 55, 148);
 }
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
